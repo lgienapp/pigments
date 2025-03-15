@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 300;
+  }
+  
+  p {
+    font-weight: 100;
+  }
+
+  strong, b {
+    font-weight: 500;
+  }
+  
+  body {
+    @apply bg-white text-black;
+  }
+  
+  /* Section dividers */
+  .section-divider {
+    @apply w-full h-1 bg-black my-0;
+    border: none;
+  }
+  
+  /* Brutalist containers */
+  .brutalist-container {
+    @apply border-black border-2 p-4 mb-4;
+  }
+  
+  /* Brutalist cards */
+  .brutalist-card {
+    @apply border-black border-2 p-4 bg-white;
+  }
+  
+  /* Brutalist buttons */
+  .brutalist-btn {
+    @apply border-black border-2 px-4 py-2 bg-white hover:bg-gray-100 transition-colors;
+  }
+  
+  /* Text input */
+  .brutalist-input {
+    @apply border-black border-2 px-2 py-1 bg-white;
+  }
+  
+  /* Brutalist color grid boxes */
+  .color-box {
+    @apply border-black border-2;
+  }
+}

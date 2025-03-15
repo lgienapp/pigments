@@ -1,0 +1,162 @@
+<template>
+  <div class="font-light text-black bg-white">
+    <Header />
+    <hr class="section-divider" />
+    <Introduction />
+    <hr class="section-divider" />
+    <PrimaryColors />
+    <hr class="section-divider" />
+    <ColorHues />
+    <hr class="section-divider" />
+    <TryItOut />
+    <hr class="section-divider" />
+    <ColorblindSimulation />
+    <hr class="section-divider" />
+    <Downloads />
+    <hr class="section-divider" />
+    <Footer />
+    <Notification :message="notificationMessage" :visible="showNotification" @close="showNotification = false" />
+  </div>
+</template>
+
+<script setup>
+import { ref, provide } from 'vue';
+import Header from './components/Header.vue';
+import Introduction from './components/Introduction.vue';
+import PrimaryColors from './components/PrimaryColors.vue';
+import ColorHues from './components/ColorHues.vue';
+import TryItOut from './components/TryItOut.vue';
+import ColorblindSimulation from './components/ColorblindSimulation.vue';
+import Downloads from './components/Downloads.vue';
+import Footer from './components/Footer.vue';
+import Notification from './components/Notification.vue';
+
+// Color palette data
+const colorPalette = {
+  ash: {
+    name: 'Ash Gray',
+    base: '#9D9A97',
+    description: 'Derived from the fine ash of burned hardwoods, this subtle gray has been used since prehistoric times for cave paintings and early pottery decoration. Artists across civilizations valued it for its neutral tone and availability, while alchemists used wood ash as a crucial component in glass-making and soap production.',
+    hues: {
+      100: '#f1f0ef',
+      200: '#dddad7',
+      300: '#c8c4bf',
+      400: '#b3afab',
+      500: '#9d9a97',
+      600: '#898683',
+      700: '#75726f',
+      800: '#615f5d',
+      900: '#4f4d4a',
+      1000: '#3d3b38',
+    }
+  },
+  celadon: {
+    name: 'Celadonite Green',
+    base: '#788D64',
+    description: 'Mined from ancient volcanic rock formations, this earthy green mineral pigment gives the distinctive color to celadon pottery treasured throughout Asian art history. Celadonite\'s remarkable stability has preserved its vibrant green hue in Roman frescoes and medieval manuscripts for centuries, resisting fading even after millennia of exposure.',
+    hues: {
+      100: '#f0f5c2',
+      200: '#d7e9b4',
+      300: '#b3cd9b',
+      400: '#9bb989',
+      500: '#89a377',
+      600: '#788d64',
+      700: '#677851',
+      800: '#56633f',
+      900: '#4a512d',
+      1000: '#40401f',
+    }
+  },
+  prussian: {
+    name: 'Prussian Blue',
+    base: '#074248',
+    description: 'Accidentally discovered in 1704 by colormaker Diesbach when animal blood contaminated his potash, Prussian Blue became the first modern synthetic pigment and revolutionized painting with its intense depth. This iron-based compound was not only used by artists like Picasso during his "Blue Period," but also served as an antidote for certain heavy metal poisonings.',
+    hues: {
+      100: '#e2f5f0',
+      200: '#b7eceb',
+      300: '#98d4dd',
+      400: '#79bacd',
+      500: '#5ea4c0',
+      600: '#4590a9',
+      700: '#2e7c92',
+      800: '#176778',
+      900: '#0b5561',
+      1000: '#074248',
+    }
+  },
+  manganese: {
+    name: 'Manganese Violet',
+    base: '#6D4DA5',
+    description: 'First synthesized in the 1860s, this vibrant purple pigment provided artists a stable alternative to the notoriously fugitive plant-based purple dyes used since antiquity. Manganese violet became particularly popular among Impressionist and Post-Impressionist painters seeking to capture the luminous qualities of twilight and flowering landscapes.',
+    hues: {
+      100: '#f9ecff',
+      200: '#eddbff',
+      300: '#d7b8fb',
+      400: '#c4a1f1',
+      500: '#a98ce4',
+      600: '#9177d4',
+      700: '#7e62c0',
+      800: '#6d4da5',
+      900: '#5f3f7e',
+      1000: '#502f5a',
+    }
+  },
+  oxide: {
+    name: 'Iron Oxide Red',
+    base: '#94202B',
+    description: 'Often called hematite or red ochre, this pigment has colored human creations from Paleolithic cave paintings to modern rust-proofing and was one of humanity\'s first cosmetics. The ancient Romans called it "rubrica" and used it to highlight important text in documents, giving us the modern term "rubric."',
+    hues: {
+      100: '#ffede8',
+      200: '#ffd3cc',
+      300: '#ffb0a4',
+      400: '#ff9283',
+      500: '#f27666',
+      600: '#e15953',
+      700: '#cb4245',
+      800: '#aa333f',
+      900: '#94202b',
+      1000: '#720d1e',
+    }
+  },
+  ochre: {
+    name: 'Gold Ochre Yellow',
+    base: '#9F6520',
+    description: 'Composed primarily of hydrated iron oxide, this warm earth pigment has been harvested from clay deposits and used in art since humans first decorated cave walls 40,000 years ago. Gold ochre appears prominently in Renaissance masterpieces for flesh tones and was considered so precious in ancient Egypt that it was reserved for depicting the skin of gods.',
+    hues: {
+      100: '#f9f2c8',
+      200: '#f6e299',
+      300: '#e6c069',
+      400: '#d9a850',
+      500: '#c98f39',
+      600: '#b77927',
+      700: '#9f6520',
+      800: '#825420',
+      900: '#5f3d16',
+      1000: '#4b3313',
+    }
+  },
+};
+
+// Notification system
+const showNotification = ref(false);
+const notificationMessage = ref('');
+
+// Function to copy color to clipboard
+const copyToClipboard = (text) => {
+  navigator.clipboard.writeText(text).then(() => {
+    notificationMessage.value = `Color ${text} copied to clipboard!`;
+    showNotification.value = true;
+    
+    // Hide notification after 2 seconds
+    setTimeout(() => {
+      showNotification.value = false;
+    }, 2000);
+  }).catch(err => {
+    console.error('Could not copy text: ', err);
+  });
+};
+
+// Provide these values to all components
+provide('colorPalette', colorPalette);
+provide('copyToClipboard', copyToClipboard);
+</script>
