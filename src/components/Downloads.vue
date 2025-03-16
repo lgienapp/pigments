@@ -65,6 +65,12 @@ const downloadFormats = [
     fileName: 'pigments.less'
   },
   { 
+    id: 'libreoffice', 
+    name: 'LibreOffice Palette', 
+    filePath: '/downloads/pigments.soc',
+    fileName: 'pigments.soc'
+  },
+  { 
     id: 'material', 
     name: 'Material Design', 
     filePath: '/downloads/pigments.material.json',
@@ -83,10 +89,10 @@ const downloadFormats = [
     fileName: 'pigments.sketchpalette'
   },
   { 
-    id: 'libreoffice', 
-    name: 'LibreOffice Palette', 
-    filePath: '/downloads/pigments.soc',
-    fileName: 'pigments.soc'
+    id: 'tex', 
+    name: 'TeX', 
+    filePath: '/downloads/pigments.sty',
+    fileName: 'pigments.sty'
   },
   { 
     id: 'svg', 
