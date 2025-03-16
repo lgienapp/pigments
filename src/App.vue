@@ -33,7 +33,7 @@ import Notification from './components/Notification.vue';
 
 // Color palette data
 const colorPalette = {
-  ash: {
+  gray: {
     name: 'Ash Gray',
     base: '#9D9A97',
     description: 'Derived from the fine ash of burned hardwoods, this subtle gray has been used since prehistoric times for cave paintings and early pottery decoration. Artists across civilizations valued it for its neutral tone and availability, while alchemists used wood ash as a crucial component in glass-making and soap production.',
@@ -50,7 +50,7 @@ const colorPalette = {
       1000: '#3d3b38',
     }
   },
-  celadon: {
+  green: {
     name: 'Celadonite Green',
     base: '#788D64',
     description: 'Mined from ancient volcanic rock formations, this earthy green mineral pigment gives the distinctive color to celadon pottery treasured throughout Asian art history. Celadonite\'s remarkable stability has preserved its vibrant green hue in Roman frescoes and medieval manuscripts for centuries, resisting fading even after millennia of exposure.',
@@ -67,7 +67,7 @@ const colorPalette = {
       1000: '#40401f',
     }
   },
-  prussian: {
+  blue: {
     name: 'Prussian Blue',
     base: '#074248',
     description: 'Accidentally discovered in 1704 by colormaker Diesbach when animal blood contaminated his potash, Prussian Blue became the first modern synthetic pigment and revolutionized painting with its intense depth. This iron-based compound was not only used by artists like Picasso during his "Blue Period," but also served as an antidote for certain heavy metal poisonings.',
@@ -84,7 +84,7 @@ const colorPalette = {
       1000: '#074248',
     }
   },
-  manganese: {
+  violet: {
     name: 'Manganese Violet',
     base: '#6D4DA5',
     description: 'First synthesized in the 1860s, this vibrant purple pigment provided artists a stable alternative to the notoriously fugitive plant-based purple dyes used since antiquity. Manganese violet became particularly popular among Impressionist and Post-Impressionist painters seeking to capture the luminous qualities of twilight and flowering landscapes.',
@@ -101,7 +101,7 @@ const colorPalette = {
       1000: '#502f5a',
     }
   },
-  oxide: {
+  red: {
     name: 'Iron Oxide Red',
     base: '#94202B',
     description: 'Often called hematite or red ochre, this pigment has colored human creations from Paleolithic cave paintings to modern rust-proofing and was one of humanity\'s first cosmetics. The ancient Romans called it "rubrica" and used it to highlight important text in documents, giving us the modern term "rubric."',
@@ -118,7 +118,7 @@ const colorPalette = {
       1000: '#720d1e',
     }
   },
-  ochre: {
+  yellow: {
     name: 'Gold Ochre Yellow',
     base: '#9F6520',
     description: 'Composed primarily of hydrated iron oxide, this warm earth pigment has been harvested from clay deposits and used in art since humans first decorated cave walls 40,000 years ago. Gold ochre appears prominently in Renaissance masterpieces for flesh tones and was considered so precious in ancient Egypt that it was reserved for depicting the skin of gods.',

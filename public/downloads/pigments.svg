@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      fill: #333;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      text-anchor: middle;
+    }
+    .subtitle {
+      font-size: 14px;
+      text-anchor: middle;
+    }
+    .label {
+      font-size: 9px;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    .color-label {
+      font-size: 12px;
+      font-weight: bold;
+      text-anchor: start;
+    }
+    .dark-text {
+      fill: #fff;
+    }
+  </style>
+  
+
+  <!-- Colors -->
+  <g id="gray-swatches" transform="translate(30, 80)">
+    <text x="0" y="15" class="color-label">Gray</text>
+    <rect x="0" y="25" width="70" height="30" fill="#f1f0ef" stroke="#ccc" />
+    <rect x="0" y="55" width="70" height="30" fill="#dddad7" stroke="#ccc" />
+    <rect x="0" y="85" width="70" height="30" fill="#c8c4bf" stroke="#ccc" />
+    <rect x="0" y="115" width="70" height="30" fill="#b3afab" stroke="#ccc" />
+    <rect x="0" y="145" width="70" height="30" fill="#9d9a97" stroke="#ccc" />
+    <rect x="0" y="175" width="70" height="30" fill="#898683" stroke="#ccc" />
+    <rect x="0" y="205" width="70" height="30" fill="#75726f" stroke="#ccc" />
+    <rect x="0" y="235" width="70" height="30" fill="#615f5d" stroke="#ccc" />
+    <rect x="0" y="265" width="70" height="30" fill="#4f4d4a" stroke="#ccc" />
+    <rect x="0" y="295" width="70" height="30" fill="#3d3b38" stroke="#ccc" />
+    
+    <text x="35" y="40" class="label">100</text>
+    <text x="35" y="70" class="label">200</text>
+    <text x="35" y="100" class="label">300</text>
+    <text x="35" y="130" class="label">400</text>
+    <text x="35" y="160" class="label">500</text>
+    <text x="35" y="190" class="label dark-text">600</text>
+    <text x="35" y="220" class="label dark-text">700</text>
+    <text x="35" y="250" class="label dark-text">800</text>
+    <text x="35" y="280" class="label dark-text">900</text>
+    <text x="35" y="310" class="label dark-text">1000</text>
+  </g>
+  
+  <g id="blue-swatches" transform="translate(130, 80)">
+    <text x="0" y="15" class="color-label">Blue</text>
+    <rect x="0" y="25" width="70" height="30" fill="#e2f5f0" stroke="#ccc" />
+    <rect x="0" y="55" width="70" height="30" fill="#b7eceb" stroke="#ccc" />
+    <rect x="0" y="85" width="70" height="30" fill="#98d4dd" stroke="#ccc" />
+    <rect x="0" y="115" width="70" height="30" fill="#79bacd" stroke="#ccc" />
+    <rect x="0" y="145" width="70" height="30" fill="#5ea4c0" stroke="#ccc" />
+    <rect x="0" y="175" width="70" height="30" fill="#4590a9" stroke="#ccc" />
+    <rect x="0" y="205" width="70" height="30" fill="#2e7c92" stroke="#ccc" />
+    <rect x="0" y="235" width="70" height="30" fill="#176778" stroke="#ccc" />
+    <rect x="0" y="265" width="70" height="30" fill="#0b5561" stroke="#ccc" />
+    <rect x="0" y="295" width="70" height="30" fill="#074248" stroke="#ccc" />
+    
+    <text x="35" y="40" class="label">100</text>
+    <text x="35" y="70" class="label">200</text>
+    <text x="35" y="100" class="label">300</text>
+    <text x="35" y="130" class="label">400</text>
+    <text x="35" y="160" class="label">500</text>
+    <text x="35" y="190" class="label dark-text">600</text>
+    <text x="35" y="220" class="label dark-text">700</text>
+    <text x="35" y="250" class="label dark-text">800</text>
+    <text x="35" y="280" class="label dark-text">900</text>
+    <text x="35" y="310" class="label dark-text">1000</text>
+  </g>
+  
+  <g id="green-swatches" transform="translate(230, 80)">
+    <text x="0" y="15" class="color-label">Green</text>
+    <rect x="0" y="25" width="70" height="30" fill="#f0f5c2" stroke="#ccc" />
+    <rect x="0" y="55" width="70" height="30" fill="#d7e9b4" stroke="#ccc" />
+    <rect x="0" y="85" width="70" height="30" fill="#b3cd9b" stroke="#ccc" />
+    <rect x="0" y="115" width="70" height="30" fill="#9bb989" stroke="#ccc" />
+    <rect x="0" y="145" width="70" height="30" fill="#89a377" stroke="#ccc" />
+    <rect x="0" y="175" width="70" height="30" fill="#788d64" stroke="#ccc" />
+    <rect x="0" y="205" width="70" height="30" fill="#677851" stroke="#ccc" />
+    <rect x="0" y="235" width="70" height="30" fill="#56633f" stroke="#ccc" />
+    <rect x="0" y="265" width="70" height="30" fill="#4a512d" stroke="#ccc" />
+    <rect x="0" y="295" width="70" height="30" fill="#40401f" stroke="#ccc" />
+    
+    <text x="35" y="40" class="label">100</text>
+    <text x="35" y="70" class="label">200</text>
+    <text x="35" y="100" class="label">300</text>
+    <text x="35" y="130" class="label">400</text>
+    <text x="35" y="160" class="label">500</text>
+    <text x="35" y="190" class="label dark-text">600</text>
+    <text x="35" y="220" class="label dark-text">700</text>
+    <text x="35" y="250" class="label dark-text">800</text>
+    <text x="35" y="280" class="label dark-text">900</text>
+    <text x="35" y="310" class="label dark-text">1000</text>
+  </g>
+  
+  <g id="yellow-swatches" transform="translate(330, 80)">
+    <text x="0" y="15" class="color-label">Yellow</text>
+    <rect x="0" y="25" width="70" height="30" fill="#f9f2c8" stroke="#ccc" />
+    <rect x="0" y="55" width="70" height="30" fill="#f6e299" stroke="#ccc" />
+    <rect x="0" y="85" width="70" height="30" fill="#e6c069" stroke="#ccc" />
+    <rect x="0" y="115" width="70" height="30" fill="#d9a850" stroke="#ccc" />
+    <rect x="0" y="145" width="70" height="30" fill="#c98f39" stroke="#ccc" />
+    <rect x="0" y="175" width="70" height="30" fill="#b77927" stroke="#ccc" />
+    <rect x="0" y="205" width="70" height="30" fill="#9f6520" stroke="#ccc" />
+    <rect x="0" y="235" width="70" height="30" fill="#825420" stroke="#ccc" />
+    <rect x="0" y="265" width="70" height="30" fill="#5f3d16" stroke="#ccc" />
+    <rect x="0" y="295" width="70" height="30" fill="#4b3313" stroke="#ccc" />
+    
+    <text x="35" y="40" class="label">100</text>
+    <text x="35" y="70" class="label">200</text>
+    <text x="35" y="100" class="label">300</text>
+    <text x="35" y="130" class="label">400</text>
+    <text x="35" y="160" class="label">500</text>
+    <text x="35" y="190" class="label dark-text">600</text>
+    <text x="35" y="220" class="label dark-text">700</text>
+    <text x="35" y="250" class="label dark-text">800</text>
+    <text x="35" y="280" class="label dark-text">900</text>
+    <text x="35" y="310" class="label dark-text">1000</text>
+  </g>
+  
+  <g id="red-swatches" transform="translate(430, 80)">
+    <text x="0" y="15" class="color-label">Red</text>
+    <rect x="0" y="25" width="70" height="30" fill="#ffede8" stroke="#ccc" />
+    <rect x="0" y="55" width="70" height="30" fill="#ffd3cc" stroke="#ccc" />
+    <rect x="0" y="85" width="70" height="30" fill="#ffb0a4" stroke="#ccc" />
+    <rect x="0" y="115" width="70" height="30" fill="#ff9283" stroke="#ccc" />
+    <rect x="0" y="145" width="70" height="30" fill="#f27666" stroke="#ccc" />
+    <rect x="0" y="175" width="70" height="30" fill="#e15953" stroke="#ccc" />
+    <rect x="0" y="205" width="70" height="30" fill="#cb4245" stroke="#ccc" />
+    <rect x="0" y="235" width="70" height="30" fill="#aa333f" stroke="#ccc" />
+    <rect x="0" y="265" width="70" height="30" fill="#94202b" stroke="#ccc" />
+    <rect x="0" y="295" width="70" height="30" fill="#720d1e" stroke="#ccc" />
+    
+    <text x="35" y="40" class="label">100</text>
+    <text x="35" y="70" class="label">200</text>
+    <text x="35" y="100" class="label">300</text>
+    <text x="35" y="130" class="label">400</text>
+    <text x="35" y="160" class="label">500</text>
+    <text x="35" y="190" class="label dark-text">600</text>
+    <text x="35" y="220" class="label dark-text">700</text>
+    <text x="35" y="250" class="label dark-text">800</text>
+    <text x="35" y="280" class="label dark-text">900</text>
+    <text x="35" y="310" class="label dark-text">1000</text>
+  </g>
+  
+  <g id="violet-swatches" transform="translate(530, 80)">
+    <text x="0" y="15" class="color-label">Violet</text>
+    <rect x="0" y="25" width="70" height="30" fill="#f9ecff" stroke="#ccc" />
+    <rect x="0" y="55" width="70" height="30" fill="#eddbff" stroke="#ccc" />
+    <rect x="0" y="85" width="70" height="30" fill="#d7b8fb" stroke="#ccc" />
+    <rect x="0" y="115" width="70" height="30" fill="#c4a1f1" stroke="#ccc" />
+    <rect x="0" y="145" width="70" height="30" fill="#a98ce4" stroke="#ccc" />
+    <rect x="0" y="175" width="70" height="30" fill="#9177d4" stroke="#ccc" />
+    <rect x="0" y="205" width="70" height="30" fill="#7e62c0" stroke="#ccc" />
+    <rect x="0" y="235" width="70" height="30" fill="#6d4da5" stroke="#ccc" />
+    <rect x="0" y="265" width="70" height="30" fill="#5f3f7e" stroke="#ccc" />
+    <rect x="0" y="295" width="70" height="30" fill="#502f5a" stroke="#ccc" />
+    
+    <text x="35" y="40" class="label">100</text>
+    <text x="35" y="70" class="label">200</text>
+    <text x="35" y="100" class="label">300</text>
+    <text x="35" y="130" class="label">400</text>
+    <text x="35" y="160" class="label">500</text>
+    <text x="35" y="190" class="label dark-text">600</text>
+    <text x="35" y="220" class="label dark-text">700</text>
+    <text x="35" y="250" class="label dark-text">800</text>
+    <text x="35" y="280" class="label dark-text">900</text>
+    <text x="35" y="310" class="label dark-text">1000</text>
+  </g>
+</svg>

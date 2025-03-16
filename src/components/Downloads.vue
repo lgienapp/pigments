@@ -23,22 +23,100 @@
 // File download formats with pre-built file paths
 const downloadFormats = [
   { 
+    id: 'scss', 
+    name: 'SCSS Variables', 
+    filePath: '/downloads/_pigments.scss',
+    fileName: '_pigments.scss'
+  },
+  { 
+    id: 'bootstrap', 
+    name: 'Bootstrap SCSS', 
+    filePath: '/downloads/pigments.bootstrap.scss',
+    fileName: 'pigments.bootstrap.scss'
+  },
+  { 
     id: 'css', 
     name: 'CSS Variables', 
     filePath: '/downloads/pigments.css',
     fileName: 'pigments.css'
   },
   { 
+    id: 'gimp', 
+    name: 'GIMP Palette', 
+    filePath: '/downloads/pigments.gpl',
+    fileName: 'pigments.gpl'
+  },
+  { 
+    id: 'iterm', 
+    name: 'iTerm2 Colors', 
+    filePath: '/downloads/pigments.itermcolors',
+    fileName: 'pigments.itermcolors'
+  },
+  { 
     id: 'json', 
-    name: 'JSON',
+    name: 'JSON', 
     filePath: '/downloads/pigments.json',
     fileName: 'pigments.json'
   },
   { 
-    id: 'iterm2', 
-    name: 'iTerm2',
-    filePath: '/downloads/pigments.itermcolors',
-    fileName: 'pigments.itermcolors'
+    id: 'less', 
+    name: 'LESS Variables', 
+    filePath: '/downloads/pigments.less',
+    fileName: 'pigments.less'
+  },
+  { 
+    id: 'material', 
+    name: 'Material Design', 
+    filePath: '/downloads/pigments.material.json',
+    fileName: 'pigments.material.json'
+  },
+  { 
+    id: 'react', 
+    name: 'React Theme', 
+    filePath: '/downloads/pigments.react.theme.js',
+    fileName: 'pigments.react.theme.js'
+  },
+  { 
+    id: 'sketch', 
+    name: 'Sketch Palette', 
+    filePath: '/downloads/pigments.sketchpalette',
+    fileName: 'pigments.sketchpalette'
+  },
+  { 
+    id: 'libreoffice', 
+    name: 'LibreOffice Palette', 
+    filePath: '/downloads/pigments.soc',
+    fileName: 'pigments.soc'
+  },
+  { 
+    id: 'svg', 
+    name: 'SVG Swatches', 
+    filePath: '/downloads/pigments.svg',
+    fileName: 'pigments.svg'
+  },
+  { 
+    id: 'tailwind', 
+    name: 'Tailwind Config', 
+    filePath: '/downloads/pigments.tailwind.config.js',
+    fileName: 'pigments.tailwind.config.js'
+  },
+  { 
+    id: 'vim', 
+    name: 'Vim/Neovim Colorscheme', 
+    filePath: '/downloads/pigments.vim',
+    fileName: 'pigments.vim'
+  },
+  { 
+    id: 'vscode', 
+    name: 'VS Code Theme', 
+    filePath: '/downloads/pigments.vscode.json',
+    fileName: 'pigments.vscode.json'
+  },
+  { 
+    id: 'winterm', 
+    name: 'Windows Terminal Theme', 
+    filePath: '/downloads/pigments.winterm.json',
+    fileName: 'pigments.winterm.json'
   }
 ];
 </script>

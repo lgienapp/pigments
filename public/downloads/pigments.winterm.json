@@ -1,0 +1,23 @@
+{
+    "name": "Pigments",
+    "background": "#3d3b38",
+    "foreground": "#f1f0ef",
+    "black": "#3d3b38",
+    "brightBlack": "#75726f",
+    "blue": "#2e7c92",
+    "brightBlue": "#79bacd",
+    "cyan": "#4590a9",
+    "brightCyan": "#98d4dd",
+    "green": "#677851",
+    "brightGreen": "#89a377",
+    "purple": "#7e62c0",
+    "brightPurple": "#a98ce4",
+    "red": "#cb4245",
+    "brightRed": "#f27666",
+    "white": "#c8c4bf",
+    "brightWhite": "#f1f0ef",
+    "yellow": "#9f6520",
+    "brightYellow": "#d9a850",
+    "selectionBackground": "#615f5d",
+    "cursorColor": "#f1f0ef"
+}

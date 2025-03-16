@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ooo:color-table xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svg="http://www.w3.org/2000/svg" xmlns:ooo="http://openoffice.org/2004/office">
+  <!-- Gray -->
+  <draw:color draw:name="pigments-gray-100" draw:color="#f1f0ef"/>
+  <draw:color draw:name="pigments-gray-200" draw:color="#dddad7"/>
+  <draw:color draw:name="pigments-gray-300" draw:color="#c8c4bf"/>
+  <draw:color draw:name="pigments-gray-400" draw:color="#b3afab"/>
+  <draw:color draw:name="pigments-gray-500" draw:color="#9d9a97"/>
+  <draw:color draw:name="pigments-gray-600" draw:color="#898683"/>
+  <draw:color draw:name="pigments-gray-700" draw:color="#75726f"/>
+  <draw:color draw:name="pigments-gray-800" draw:color="#615f5d"/>
+  <draw:color draw:name="pigments-gray-900" draw:color="#4f4d4a"/>
+  <draw:color draw:name="pigments-gray-1000" draw:color="#3d3b38"/>
+  
+  <!-- Blue -->
+  <draw:color draw:name="pigments-blue-100" draw:color="#e2f5f0"/>
+  <draw:color draw:name="pigments-blue-200" draw:color="#b7eceb"/>
+  <draw:color draw:name="pigments-blue-300" draw:color="#98d4dd"/>
+  <draw:color draw:name="pigments-blue-400" draw:color="#79bacd"/>
+  <draw:color draw:name="pigments-blue-500" draw:color="#5ea4c0"/>
+  <draw:color draw:name="pigments-blue-600" draw:color="#4590a9"/>
+  <draw:color draw:name="pigments-blue-700" draw:color="#2e7c92"/>
+  <draw:color draw:name="pigments-blue-800" draw:color="#176778"/>
+  <draw:color draw:name="pigments-blue-900" draw:color="#0b5561"/>
+  <draw:color draw:name="pigments-blue-1000" draw:color="#074248"/>
+  
+  <!-- Green -->
+  <draw:color draw:name="pigments-green-100" draw:color="#f0f5c2"/>
+  <draw:color draw:name="pigments-green-200" draw:color="#d7e9b4"/>
+  <draw:color draw:name="pigments-green-300" draw:color="#b3cd9b"/>
+  <draw:color draw:name="pigments-green-400" draw:color="#9bb989"/>
+  <draw:color draw:name="pigments-green-500" draw:color="#89a377"/>
+  <draw:color draw:name="pigments-green-600" draw:color="#788d64"/>
+  <draw:color draw:name="pigments-green-700" draw:color="#677851"/>
+  <draw:color draw:name="pigments-green-800" draw:color="#56633f"/>
+  <draw:color draw:name="pigments-green-900" draw:color="#4a512d"/>
+  <draw:color draw:name="pigments-green-1000" draw:color="#40401f"/>
+  
+  <!-- Yellow -->
+  <draw:color draw:name="pigments-yellow-100" draw:color="#f9f2c8"/>
+  <draw:color draw:name="pigments-yellow-200" draw:color="#f6e299"/>
+  <draw:color draw:name="pigments-yellow-300" draw:color="#e6c069"/>
+  <draw:color draw:name="pigments-yellow-400" draw:color="#d9a850"/>
+  <draw:color draw:name="pigments-yellow-500" draw:color="#c98f39"/>
+  <draw:color draw:name="pigments-yellow-600" draw:color="#b77927"/>
+  <draw:color draw:name="pigments-yellow-700" draw:color="#9f6520"/>
+  <draw:color draw:name="pigments-yellow-800" draw:color="#825420"/>
+  <draw:color draw:name="pigments-yellow-900" draw:color="#5f3d16"/>
+  <draw:color draw:name="pigments-yellow-1000" draw:color="#4b3313"/>
+  
+  <!-- Red -->
+  <draw:color draw:name="pigments-red-100" draw:color="#ffede8"/>
+  <draw:color draw:name="pigments-red-200" draw:color="#ffd3cc"/>
+  <draw:color draw:name="pigments-red-300" draw:color="#ffb0a4"/>
+  <draw:color draw:name="pigments-red-400" draw:color="#ff9283"/>
+  <draw:color draw:name="pigments-red-500" draw:color="#f27666"/>
+  <draw:color draw:name="pigments-red-600" draw:color="#e15953"/>
+  <draw:color draw:name="pigments-red-700" draw:color="#cb4245"/>
+  <draw:color draw:name="pigments-red-800" draw:color="#aa333f"/>
+  <draw:color draw:name="pigments-red-900" draw:color="#94202b"/>
+  <draw:color draw:name="pigments-red-1000" draw:color="#720d1e"/>
+  
+  <!-- Violet -->
+  <draw:color draw:name="pigments-violet-100" draw:color="#f9ecff"/>
+  <draw:color draw:name="pigments-violet-200" draw:color="#eddbff"/>
+  <draw:color draw:name="pigments-violet-300" draw:color="#d7b8fb"/>
+  <draw:color draw:name="pigments-violet-400" draw:color="#c4a1f1"/>
+  <draw:color draw:name="pigments-violet-500" draw:color="#a98ce4"/>
+  <draw:color draw:name="pigments-violet-600" draw:color="#9177d4"/>
+  <draw:color draw:name="pigments-violet-700" draw:color="#7e62c0"/>
+  <draw:color draw:name="pigments-violet-800" draw:color="#6d4da5"/>
+  <draw:color draw:name="pigments-violet-900" draw:color="#5f3f7e"/>
+  <draw:color draw:name="pigments-violet-1000" draw:color="#502f5a"/>
+  
+  <!-- Base Colors -->
+  <draw:color draw:name="pigments-black" draw:color="#000000"/>
+  <draw:color draw:name="pigments-white" draw:color="#ffffff"/>
+</ooo:color-table>

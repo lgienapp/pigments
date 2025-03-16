@@ -240,9 +240,9 @@ const basicTextColor = ref('black');
 const basicBgColor = ref('white');
 
 // Default palette selections
-const textColorFamily = ref('oxide');
+const textColorFamily = ref('red');
 const textColorShade = ref(900);
-const bgColorFamily = ref('ash');
+const bgColorFamily = ref('gray');
 const bgColorShade = ref(100);
 
 // Computed properties for the selected colors

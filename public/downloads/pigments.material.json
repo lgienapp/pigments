@@ -1,0 +1,108 @@
+{
+    "palettes": [
+      {
+        "name": "pigments-gray",
+        "colors": [
+          { "name": "100", "value": "#f1f0ef" },
+          { "name": "200", "value": "#dddad7" },
+          { "name": "300", "value": "#c8c4bf" },
+          { "name": "400", "value": "#b3afab" },
+          { "name": "500", "value": "#9d9a97" },
+          { "name": "600", "value": "#898683" },
+          { "name": "700", "value": "#75726f" },
+          { "name": "800", "value": "#615f5d" },
+          { "name": "900", "value": "#4f4d4a" },
+          { "name": "1000", "value": "#3d3b38" }
+        ]
+      },
+      {
+        "name": "pigments-blue",
+        "colors": [
+          { "name": "100", "value": "#e2f5f0" },
+          { "name": "200", "value": "#b7eceb" },
+          { "name": "300", "value": "#98d4dd" },
+          { "name": "400", "value": "#79bacd" },
+          { "name": "500", "value": "#5ea4c0" },
+          { "name": "600", "value": "#4590a9" },
+          { "name": "700", "value": "#2e7c92" },
+          { "name": "800", "value": "#176778" },
+          { "name": "900", "value": "#0b5561" },
+          { "name": "1000", "value": "#074248" }
+        ]
+      },
+      {
+        "name": "pigments-green",
+        "colors": [
+          { "name": "100", "value": "#f0f5c2" },
+          { "name": "200", "value": "#d7e9b4" },
+          { "name": "300", "value": "#b3cd9b" },
+          { "name": "400", "value": "#9bb989" },
+          { "name": "500", "value": "#89a377" },
+          { "name": "600", "value": "#788d64" },
+          { "name": "700", "value": "#677851" },
+          { "name": "800", "value": "#56633f" },
+          { "name": "900", "value": "#4a512d" },
+          { "name": "1000", "value": "#40401f" }
+        ]
+      },
+      {
+        "name": "pigments-yellow",
+        "colors": [
+          { "name": "100", "value": "#f9f2c8" },
+          { "name": "200", "value": "#f6e299" },
+          { "name": "300", "value": "#e6c069" },
+          { "name": "400", "value": "#d9a850" },
+          { "name": "500", "value": "#c98f39" },
+          { "name": "600", "value": "#b77927" },
+          { "name": "700", "value": "#9f6520" },
+          { "name": "800", "value": "#825420" },
+          { "name": "900", "value": "#5f3d16" },
+          { "name": "1000", "value": "#4b3313" }
+        ]
+      },
+      {
+        "name": "pigments-red",
+        "colors": [
+          { "name": "100", "value": "#ffede8" },
+          { "name": "200", "value": "#ffd3cc" },
+          { "name": "300", "value": "#ffb0a4" },
+          { "name": "400", "value": "#ff9283" },
+          { "name": "500", "value": "#f27666" },
+          { "name": "600", "value": "#e15953" },
+          { "name": "700", "value": "#cb4245" },
+          { "name": "800", "value": "#aa333f" },
+          { "name": "900", "value": "#94202b" },
+          { "name": "1000", "value": "#720d1e" }
+        ]
+      },
+      {
+        "name": "pigments-violet",
+        "colors": [
+          { "name": "100", "value": "#f9ecff" },
+          { "name": "200", "value": "#eddbff" },
+          { "name": "300", "value": "#d7b8fb" },
+          { "name": "400", "value": "#c4a1f1" },
+          { "name": "500", "value": "#a98ce4" },
+          { "name": "600", "value": "#9177d4" },
+          { "name": "700", "value": "#7e62c0" },
+          { "name": "800", "value": "#6d4da5" },
+          { "name": "900", "value": "#5f3f7e" },
+          { "name": "1000", "value": "#502f5a" }
+        ]
+      }
+    ],
+    "theme": {
+      "primary": "#2e7c92",
+      "primary-variant": "#074248",
+      "secondary": "#7e62c0",
+      "secondary-variant": "#502f5a",
+      "background": "#f1f0ef",
+      "surface": "#ffffff",
+      "error": "#cb4245",
+      "on-primary": "#ffffff",
+      "on-secondary": "#ffffff",
+      "on-background": "#3d3b38",
+      "on-surface": "#3d3b38",
+      "on-error": "#ffffff"
+    }
+  }
