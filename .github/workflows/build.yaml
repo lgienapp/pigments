@@ -1,14 +1,24 @@
-name: Build Vue
-on: [push]
+name: Vite Github Pages Deploy
+on:
+  push:
+    branches: [ "main"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 jobs:
-  build_vue:
+  build:
     runs-on: ubuntu-latest
-    name: Build Vue
+    environment:
+      name: demo
+      url: ${{ steps.deploy_to_pages.outputs.github_pages_url }}
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
-      with:
-        username: 'lgienapp'
-        reponame: 'pigments'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Vite Github Pages Deployer
+        uses: skywarth/vite-github-pages-deployer@master
+        id: deploy_to_pages
