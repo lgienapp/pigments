@@ -42,3 +42,5 @@ Pigments is available in multiple formats:
 | Vim/Neovim Colorscheme | [`pigments.vim`](public/downloads/pigments.vim)                               |
 | VS Code Theme          | [`pigments.vscode.json`](public/downloads/pigments.vscode.json)               |
 | Windows Terminal Theme | [`pigments.winterm.json`](pigments.winterm.json)                              |
+
+If you can't find what you're looking for, open an issue, or contribute a port by adding your file to [`public/downloads/`](public/downloads) and referencing it in [Downloads.vue](`src/components/Downloads.vue`) 
