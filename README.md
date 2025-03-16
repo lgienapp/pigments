@@ -1,11 +1,12 @@
-# Pigments Color System
+<p align="center"> Visit the <a href="https://gien.app/pigments">live demo</a> </p>
 
-A carefully crafted, perceptually uniform color system designed for modern applications. Pigments provides six primary colors with 10 hue variations each, maintaining harmony and accessibility across different luminance levels.
+# Pigments 
 
-- **Perceptually Uniform**: Each color maintains its identity across different brightness levels
-- **Accessible**: Carefully calibrated for optimal contrast ratios and readability
-- **Versatile**: Available in multiple formats for designers and developers
+Pigments is a flexible, modern color palette, inspired by natural pigments. A collection of six primary colors with ten perceptually uniform brightness levels each, designed for harmonious, and visually distinct interfaces, and colors selected to reflect modern accessibility standards.
 
+It is based on six natural pigment colors, widely used by artists for over hundreds of years: ![](https://placehold.co/16x16/9d9a97/9d9a97) Ash Gray, ![](https://placehold.co/16x16/788d64/788d64) Celadonite Green, ![](https://placehold.co/16x16/074248/074248) Prussian Blue, ![](https://placehold.co/16x16/6d4da5/6d4da5) Manganese Violet, ![](https://placehold.co/16x16/94202b/94202b) Iron Oxide Red, and ![](https://placehold.co/16x16/9f6520/9f6520) Gold Ochre Yellow. From these, a full palette of 60 colors, ten derived from each pigment, is crafted. The full palette is colorblind-friendly and ensures sufficient contrast for color combinations.
+
+Pigments comes in many ready-to-use formats. If you can't find one for your use-case, or spot an error, Pigments is always open for contributions!
 
 ## Palette
 
