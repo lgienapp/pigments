@@ -38,6 +38,7 @@ Pigments is available in multiple formats:
 | LibreOffice Palette    | [`pigments.soc`](public/downloads/pigments.soc)                               |
 | SVG Swatches           | [`pigments.svg`](public/downloads/pigments.svg)                               |
 | Tailwind Config        | [`pigments.tailwind.config.js`](public/downloads/pigments.tailwind.config.js) |
+| TeX                    | [`pigments.sty`](public/downloads/pigments.sty)                               |
 | Vim/Neovim Colorscheme | [`pigments.vim`](public/downloads/pigments.vim)                               |
 | VS Code Theme          | [`pigments.vscode.json`](public/downloads/pigments.vscode.json)               |
 | Windows Terminal Theme | [`pigments.winterm.json`](pigments.winterm.json)                              |
