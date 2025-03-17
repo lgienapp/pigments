@@ -2,8 +2,9 @@
   <section class="py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl md:text-5xl font-light mb-10 tracking-tight">The Primary Pigments</h2>
-      <p class="max-w-4xl mx-auto mb-12 text-lg">Each primary color in our palette is derived from a natural pigment with a rich history and unique properties. These base colors serve as the foundation for our expanded hue system.</p>
-      
+      <div class="max-w-4xl mx-auto space-y-6 text-lg mb-10">
+        <p>Each primary color in the palette is derived from a traditional pigment with a rich history and unique properties. These base colors serve as the foundation for Pigments' expanded color system.</p>
+      </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Primary Color Card Component for each color -->
         <div v-for="(color, key) in colorPalette" :key="key" 

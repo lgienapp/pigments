@@ -2,13 +2,14 @@
   <section class="py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl md:text-5xl font-light mb-10 tracking-tight">Try It Out</h2>
-      <p class="max-w-4xl mx-auto mb-6 text-lg">
-        Experiment with color combinations to test contrast ratios and accessibility. Select a text color and a background color to preview UI elements and check WCAG accessibility levels.
-      </p>
-      <p class="max-w-4xl mx-auto mb-12 text-lg">
-        WCAG guidelines define minimum contrast ratios for text to ensure readability: <strong>AA standard</strong> (Minimum) requires 4.5:1 for normal text and 3:1 for large text, while <strong>AAA standard</strong> (Enhanced) requires 7:1 for normal text and 4.5:1 for large text. These standards ensure content is readable by people with moderate visual impairments or color blindness.
-      </p>
-
+      <div class="max-w-4xl mx-auto space-y-6 text-lg mb-10">
+        <p>
+          The luminance variants are optimized for contrast. Experiment with color combinations to test contrast ratios and accessibility. Select a text color and a background color to preview UI elements and check WCAG accessibility levels.
+        </p>
+        <p>
+          WCAG guidelines define minimum contrast ratios for text to ensure readability: <strong>AA standard</strong> (Minimum) requires 4.5:1 for normal text and 3:1 for large text, while <strong>AAA standard</strong> (Enhanced) requires 7:1 for normal text and 4.5:1 for large text. These standards ensure content is readable by people with moderate visual impairments or color blindness.
+        </p>
+      </div>
       <div class="max-w-4xl mx-auto">
         <!-- Color Selection Controls -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10 p-6">

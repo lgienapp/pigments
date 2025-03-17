@@ -1,9 +1,15 @@
 <template>
   <section class="py-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl md:text-5xl font-light mb-10 tracking-tight">Perceptually Uniform Hues</h2>
-      <p class="max-w-4xl mx-auto mb-12 text-lg">Each primary color has been expanded into a system of perceptually uniform hues. These carefully calibrated variations maintain color identity across different luminance levels while ensuring accessibility and harmony.</p>
-      
+      <h2 class="text-4xl md:text-5xl font-light mb-10 tracking-tight">Perceptually Uniform Variants</h2>
+      <div class="max-w-4xl mx-auto space-y-6 text-lg mb-10">
+        <p>
+          Each primary color has been expanded into a system of perceptually uniform variants in CIELAB space. They maintain the same color identity across different luminance levels, and the same luminance across different colors.
+        </p>
+        <p>
+          This has several advantages: for visualization, the human brain can best interpret monotonically increasing changes in the lightness parameter as changes in the data, opposed to, for example, changes in hue; they also allow to swap colors while maintaining contrast levels, and thus allow for predictable, flexible designs.
+        </p>
+      </div>
       <div class="space-y-2">
         <!-- Hue Group for each color -->
         <div v-for="(colorData, colorName) in colorPalette" :key="colorName">

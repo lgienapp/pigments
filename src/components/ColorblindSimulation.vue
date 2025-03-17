@@ -2,14 +2,16 @@
   <section class="py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl md:text-5xl font-light mb-10 tracking-tight">Colorblind Accessibility</h2>
-      <p class="max-w-4xl mx-auto mb-12 text-lg">
-        Understanding how your color choices appear to users with color vision deficiencies is essential for inclusive design. 
-        Below are simulations of how our palette appears to people with the three most common types of colorblindness.
-      </p>
-      <p class="max-w-4xl mx-auto mb-12 text-lg">
-        While all colors are chosen to ensure sufficient differentiability in each hue level even for users with color vision deficiencies, as a general rule of thumb, pairing blue and purple, red and yellow, and green and gray is discouraged for applications where visibility matters.
-      </p>
-
+      <div class="max-w-4xl mx-auto space-y-6 text-lg mb-10">
+        <p>
+          Understanding how color choices appear to people with color vision deficiencies is essential for inclusive design. 
+          Below are simulations of how the Pigments palette appears to people with the three most common types of colorblindness.
+        </p>
+        <p>
+          All colors are chosen to ensure sufficient differentiability in each hue level even for people with color vision deficiencies.
+          However, as a general rule of thumb, pairing blue and purple, red and yellow, and green and gray is discouraged for applications where visibility matters.
+        </p>
+      </div>
       <!-- SVG Filter Definitions -->
       <svg width="0" height="0" class="absolute">
         <defs>

@@ -36,7 +36,7 @@ const colorPalette = {
   gray: {
     name: 'Ash Gray',
     base: '#9D9A97',
-    description: 'Derived from the fine ash of burned hardwoods, this subtle gray has been used since prehistoric times for cave paintings and early pottery decoration. Artists across civilizations valued it for its neutral tone and availability, while alchemists used wood ash as a crucial component in glass-making and soap production.',
+    description: 'Derived from the fine ash of burned hardwoods, this subtle gray has been used since prehistoric times across all civilizations for its neutral tone and high availability. Wood ash also served as a crucial component in medieval glass-making and soap production.',
     hues: {
       100: '#f1f0ef',
       200: '#dddad7',
@@ -53,7 +53,7 @@ const colorPalette = {
   green: {
     name: 'Celadonite Green',
     base: '#788D64',
-    description: 'Mined from ancient volcanic rock formations, this earthy green mineral pigment gives the distinctive color to celadon pottery treasured throughout Asian art history. Celadonite\'s remarkable stability has preserved its vibrant green hue in Roman frescoes and medieval manuscripts for centuries, resisting fading even after millennia of exposure.',
+    description: 'Celadonite is a natural mineral pigment that yields a subtle earthen green, which remains unaffected by light or chemicals. Medieval painters used green earth for underpainting flesh tones. It is also reminiscient of the distinctive color to celadon pottery of ancient Korea.',
     hues: {
       100: '#f0f5c2',
       200: '#d7e9b4',
@@ -70,7 +70,7 @@ const colorPalette = {
   blue: {
     name: 'Prussian Blue',
     base: '#074248',
-    description: 'Accidentally discovered in 1704 by colormaker Diesbach when animal blood contaminated his potash, Prussian Blue became the first modern synthetic pigment and revolutionized painting with its intense depth. This iron-based compound was not only used by artists like Picasso during his "Blue Period," but also served as an antidote for certain heavy metal poisonings.',
+    description: 'Prussian Blue was the first modern synthetic pigment and exhibits an intense deep blue tone. It remains widely popular, being used in 19th century japanese woodblock prints, and famous european painters like Van Gogh, de Goya, Picasso, or Munch.',
     hues: {
       100: '#e2f5f0',
       200: '#b7eceb',
@@ -87,7 +87,7 @@ const colorPalette = {
   violet: {
     name: 'Manganese Violet',
     base: '#6D4DA5',
-    description: 'First synthesized in the 1860s, this vibrant purple pigment provided artists a stable alternative to the notoriously fugitive plant-based purple dyes used since antiquity. Manganese violet became particularly popular among Impressionist and Post-Impressionist painters seeking to capture the luminous qualities of twilight and flowering landscapes.',
+    description: 'This intense purple is produced by heating manganese oxide with an acid. It provided artists a stable alternative to the notoriously fugitive plant-based purple dyes.',
     hues: {
       100: '#f9ecff',
       200: '#eddbff',
@@ -104,7 +104,7 @@ const colorPalette = {
   red: {
     name: 'Iron Oxide Red',
     base: '#94202B',
-    description: 'Often called hematite or red ochre, this pigment has colored human creations from Paleolithic cave paintings to modern rust-proofing and was one of humanity\'s first cosmetics. The ancient Romans called it "rubrica" and used it to highlight important text in documents, giving us the modern term "rubric."',
+    description: 'Derived from the mineral Hematite, the earthen red has been popular throughout human history for writing, drawing, and decoration. As a byproduct of iron mining, it also yields the famous red paint to wooden houses in Nordic countries.',
     hues: {
       100: '#ffede8',
       200: '#ffd3cc',
@@ -121,7 +121,7 @@ const colorPalette = {
   yellow: {
     name: 'Gold Ochre Yellow',
     base: '#9F6520',
-    description: 'Composed primarily of hydrated iron oxide, this warm earth pigment has been harvested from clay deposits and used in art since humans first decorated cave walls 40,000 years ago. Gold ochre appears prominently in Renaissance masterpieces for flesh tones and was considered so precious in ancient Egypt that it was reserved for depicting the skin of gods.',
+    description: 'Gold ochre is one of the oldest pigments used in Art. It is produced by washing clay and grinding the dried sludge. Its warm earthen tone can be found in decorated cave walls, greek and roman frescoe paintings, and remains popular to the present day.',
     hues: {
       100: '#f9f2c8',
       200: '#f6e299',

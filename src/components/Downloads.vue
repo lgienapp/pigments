@@ -3,10 +3,14 @@
   <section class="py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl md:text-5xl font-light mb-10 tracking-tight">Download</h2>
-      <p class="max-w-2xl mx-auto mb-10 text-lg">
-        Integrate these natural pigment-inspired colors into your design workflow with these ready-to-use format options.
-      </p>
-      
+        <div class="max-w-4xl mx-auto space-y-6 text-lg mb-10">
+          <p>
+            Integrate Pigments colors into your setup or design workflow with these ready-to-use format options.
+          </p>
+          <p>
+            Spot an error or cant find what you're looking for? Pigments is always open for contributing ports <a class="text-blue-600 dark:text-blue-500 hover:underline" href="https://github.com/lgienapp/pigments">on Github</a>!
+          </p>
+        </div>
       <div class="flex flex-wrap justify-center gap-0 mb-10 p-4">
         <a v-for="format in downloadFormats" :key="format.id"
            :href="format.filePath" 
