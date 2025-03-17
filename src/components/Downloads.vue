@@ -27,6 +27,12 @@
 // File download formats with pre-built file paths
 const downloadFormats = [
   { 
+    id: 'apple', 
+    name: 'Apple Color List', 
+    filePath: '/downloads/pigments.clr',
+    fileName: 'pigments.clr'
+  },
+  { 
     id: 'scss', 
     name: 'SCSS Variables', 
     filePath: '/downloads/_pigments.scss',
@@ -110,18 +116,18 @@ const downloadFormats = [
     filePath: '/downloads/pigments.tailwind.config.js',
     fileName: 'pigments.tailwind.config.js'
   },
-  { 
-    id: 'vim', 
-    name: 'Vim/Neovim Colorscheme', 
-    filePath: '/downloads/pigments.vim',
-    fileName: 'pigments.vim'
-  },
-  { 
-    id: 'vscode', 
-    name: 'VS Code Theme', 
-    filePath: '/downloads/pigments.vscode.json',
-    fileName: 'pigments.vscode.json'
-  },
+  //{ 
+  //  id: 'vim', 
+  //  name: 'Vim/Neovim Colorscheme', 
+  //  filePath: '/downloads/pigments.vim',
+  //  fileName: 'pigments.vim'
+  //},
+  //{ 
+  //  id: 'vscode', 
+  //  name: 'VS Code Theme', 
+  //  filePath: '/downloads/pigments.vscode.json',
+  //  fileName: 'pigments.vscode.json'
+  //},
   { 
     id: 'winterm', 
     name: 'Windows Terminal Theme', 

@@ -40,7 +40,9 @@ Pigments is available in multiple formats:
 | Tailwind Config        | [`pigments.tailwind.config.js`](public/downloads/pigments.tailwind.config.js) |
 | TeX                    | [`pigments.sty`](public/downloads/pigments.sty)                               |
 | Vim/Neovim Colorscheme | [`pigments.vim`](public/downloads/pigments.vim)                               |
-| VS Code Theme          | [`pigments.vscode.json`](public/downloads/pigments.vscode.json)               |
-| Windows Terminal Theme | [`pigments.winterm.json`](pigments.winterm.json)                              |
+| ⚠️ VS Code Theme          | [`pigments.vscode.json`](public/downloads/pigments.vscode.json)               |
+| ⚠️ Windows Terminal Theme | [`pigments.winterm.json`](pigments.winterm.json)                              |
+
+Formats with ⚠️ are still work in progress.
 
 If you can't find what you're looking for, open an issue, or contribute a port by adding your file to [`public/downloads/`](public/downloads) and referencing it in [Downloads.vue](src/components/Downloads.vue) 
