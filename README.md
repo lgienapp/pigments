@@ -23,26 +23,27 @@ Pigments comes in many ready-to-use formats. If you can't find one for your use-
 
 Pigments is available in multiple formats:
 
-| Format                 | Filename                                                                      |
-|:-----------------------|:------------------------------------------------------------------------------|
-| CSS Variables          | [`pigments.css`](public/downloads/pigments.css)                               |
-| SCSS Variables         | [`_pigments.scss`](public/downloads/_pigments.scss)                           |
-| LESS Variables         | [`pigments.less`](public/downloads/pigments.less)                             |
-| JSON                   | [`pigments.json`](public/downloads/pigments.json)                             |
-| Bootstrap SCSS         | [`pigments.bootstrap.scss`](public/downloads/pigments.bootstrap.scss)         |
-| GIMP Palette           | [`pigments.gpl`](public/downloads/pigments.gpl)                               |
-| iTerm2 Colors          | [`pigments.itermcolors`](public/downloads/pigments.itermcolors)               |
-| Material Design        | [`pigments.material.json`](public/downloads/pigments.material.json)           |
-| React Theme            | [`pigments.react.theme.js`](public/downloads/pigments.react.theme.js)         |
-| Sketch Palette         | [`pigments.sketchpalette`](public/downloads/pigments.sketchpalette)           |
-| LibreOffice Palette    | [`pigments.soc`](public/downloads/pigments.soc)                               |
-| SVG Swatches           | [`pigments.svg`](public/downloads/pigments.svg)                               |
-| Tailwind Config        | [`pigments.tailwind.config.js`](public/downloads/pigments.tailwind.config.js) |
-| TeX                    | [`pigments.sty`](public/downloads/pigments.sty)                               |
+| Format                   | Filename                                                                      |
+|:-------------------------|:------------------------------------------------------------------------------|
+| Apple Color List         | [`pigments.clr`](public/downloads/pigments.clr)                               |
+| CSS Variables            | [`pigments.css`](public/downloads/pigments.css)                               |
+| SCSS Variables           | [`_pigments.scss`](public/downloads/_pigments.scss)                           |
+| LESS Variables           | [`pigments.less`](public/downloads/pigments.less)                             |
+| JSON                     | [`pigments.json`](public/downloads/pigments.json)                             |
+| Bootstrap SCSS           | [`pigments.bootstrap.scss`](public/downloads/pigments.bootstrap.scss)         |
+| GIMP Palette             | [`pigments.gpl`](public/downloads/pigments.gpl)                               |
+| iTerm2 Colors            | [`pigments.itermcolors`](public/downloads/pigments.itermcolors)               |
+| Material Design          | [`pigments.material.json`](public/downloads/pigments.material.json)           |
+| React Theme              | [`pigments.react.theme.js`](public/downloads/pigments.react.theme.js)         |
+| Sketch Palette           | [`pigments.sketchpalette`](public/downloads/pigments.sketchpalette)           |
+| LibreOffice Palette      | [`pigments.soc`](public/downloads/pigments.soc)                               |
+| SVG Swatches             | [`pigments.svg`](public/downloads/pigments.svg)                               |
+| Tailwind Config          | [`pigments.tailwind.config.js`](public/downloads/pigments.tailwind.config.js) |
+| TeX                      | [`pigments.sty`](public/downloads/pigments.sty)                               |
 | ⚠️ Vim/Neovim Colorscheme | [`pigments.vim`](public/downloads/pigments.vim)                               |
-| ⚠️ VS Code Theme        | [`pigments.vscode.json`](public/downloads/pigments.vscode.json)               |
-| Windows Terminal Theme | [`pigments.winterm.json`](pigments.winterm.json)                              |
+| ⚠️ VS Code Theme          | [`pigments.vscode.json`](public/downloads/pigments.vscode.json)               |
+| Windows Terminal Theme   | [`pigments.winterm.json`](pigments.winterm.json)                              |
 
-Formats with ⚠️ are still work in progress.
+Formats with ⚠️ are still work in progress and subject to change.
 
 If you can't find what you're looking for, open an issue, or contribute a port by adding your file to [`public/downloads/`](public/downloads) and referencing it in [Downloads.vue](src/components/Downloads.vue) 
