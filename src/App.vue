@@ -104,7 +104,7 @@ const colorPalette = {
   red: {
     name: 'Iron Oxide Red',
     base: '#94202B',
-    description: 'Derived from the mineral Hematite, the earthen red has been popular throughout human history for writing, drawing, and decoration. As a byproduct of iron mining, it also yields the famous red paint to wooden houses in Nordic countries.',
+    description: 'Derived from the mineral Hematite, the earthen red has been popular throughout human history for writing, drawing, and decoration. As a byproduct of iron mining, it also yields the famous red paint of wooden houses in Scandinavian countries.',
     hues: {
       100: '#ffede8',
       200: '#ffd3cc',
