@@ -1,4 +1,3 @@
-// components/Downloads.vue
 <template>
   <section class="py-16">
     <div class="container mx-auto px-4">
@@ -12,22 +11,37 @@
           </p>
         </div>
       <div class="flex flex-wrap justify-center gap-0 mb-10 p-4">
-        <button 
-          v-for="format in downloadFormats" 
-          :key="format.id"
-          @click="downloadFile(format)"
-          class="flex items-center gap-3 px-5 py-3 border-2 border-black m-2 transition-colors hover:bg-gray-100">
+        <a v-for="format in downloadFormats" 
+           :key="format.id"
+           :href="fullPath(format.filePath)" 
+           :download="format.fileName"
+           class="flex items-center gap-3 px-5 py-3 border-2 border-black m-2 transition-colors hover:bg-gray-100 cursor-pointer">
           <span class="font-mono">{{ format.name }}</span>
-        </button>
+        </a>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 
-// File download formats with pre-built file paths
+// Determine the base URL for file paths
+const baseUrl = ref('');
+
+onMounted(() => {
+  // Set the base URL depending on environment
+  baseUrl.value = window.location.href.includes('/pigments/') 
+    ? '/pigments'   // Production at http://gien.app/pigments/
+    : '';           // Local development
+});
+
+// Helper function to create the full path
+const fullPath = (path) => {
+  return `${baseUrl.value}${path}`;
+};
+
+// File download formats with relative paths
 const downloadFormats = [
   { 
     id: 'apple', 
@@ -126,27 +140,4 @@ const downloadFormats = [
     fileName: 'pigments.winterm.json'
   }
 ];
-
-/**
- * Handles file download by creating an invisible anchor element and
- * programmatically triggering a click with the correct file attributes
- */
-const downloadFile = (format) => {
-  // Create a server-side download link
-  // We need to ensure we're getting the file as a download, not as a navigation
-  const link = document.createElement('a');
-  
-  // Ensure the download happens by adding a timestamp to prevent caching
-  // This helps avoid the server treating it as a navigation request
-  const timestamp = new Date().getTime();
-  const url = `${format.filePath}?download=true&t=${timestamp}`;
-  
-  link.href = url;
-  link.setAttribute('download', format.fileName);
-  document.body.appendChild(link);
-  link.click();
-  
-  // Clean up
-  document.body.removeChild(link);
-};
 </script>
