@@ -12,18 +12,21 @@
           </p>
         </div>
       <div class="flex flex-wrap justify-center gap-0 mb-10 p-4">
-        <a v-for="format in downloadFormats" :key="format.id"
-           :href="format.filePath" 
-           :download="format.fileName"
-           class="flex items-center gap-3 px-5 py-3 border-2 border-black m-2 transition-colors hover:bg-gray-100">
+        <button 
+          v-for="format in downloadFormats" 
+          :key="format.id"
+          @click="downloadFile(format)"
+          class="flex items-center gap-3 px-5 py-3 border-2 border-black m-2 transition-colors hover:bg-gray-100">
           <span class="font-mono">{{ format.name }}</span>
-        </a>
+        </button>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import { ref } from 'vue';
+
 // File download formats with pre-built file paths
 const downloadFormats = [
   { 
@@ -116,18 +119,6 @@ const downloadFormats = [
     filePath: '/downloads/pigments.tailwind.config.js',
     fileName: 'pigments.tailwind.config.js'
   },
-  //{ 
-  //  id: 'vim', 
-  //  name: 'Vim/Neovim Colorscheme', 
-  //  filePath: '/downloads/pigments.vim',
-  //  fileName: 'pigments.vim'
-  //},
-  //{ 
-  //  id: 'vscode', 
-  //  name: 'VS Code Theme', 
-  //  filePath: '/downloads/pigments.vscode.json',
-  //  fileName: 'pigments.vscode.json'
-  //},
   { 
     id: 'winterm', 
     name: 'Windows Terminal Theme', 
@@ -135,4 +126,27 @@ const downloadFormats = [
     fileName: 'pigments.winterm.json'
   }
 ];
+
+/**
+ * Handles file download by creating an invisible anchor element and
+ * programmatically triggering a click with the correct file attributes
+ */
+const downloadFile = (format) => {
+  // Create a server-side download link
+  // We need to ensure we're getting the file as a download, not as a navigation
+  const link = document.createElement('a');
+  
+  // Ensure the download happens by adding a timestamp to prevent caching
+  // This helps avoid the server treating it as a navigation request
+  const timestamp = new Date().getTime();
+  const url = `${format.filePath}?download=true&t=${timestamp}`;
+  
+  link.href = url;
+  link.setAttribute('download', format.fileName);
+  document.body.appendChild(link);
+  link.click();
+  
+  // Clean up
+  document.body.removeChild(link);
+};
 </script>
